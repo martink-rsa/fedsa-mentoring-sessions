@@ -1,6 +1,12 @@
 export const shoppingCart = (function ShoppingCart() {
-  const items = []; //
+  const items = [];
 
+  /** Adds an item to the cart */
+  function addItem(item) {
+    items.push(item);
+  }
+
+  /** Gets the total for all items in the cart */
   function getTotal() {
     if (items.length === 0) {
       return 0;
@@ -11,18 +17,8 @@ export const shoppingCart = (function ShoppingCart() {
     }, 0);
   }
 
-  function addItem(item) {
-    items.push(item);
-  }
-
   return {
     getTotal,
     addItem,
   };
 })();
-
-//
-
-console.log(shoppingCart.getTotal());
-shoppingCart.addItem({ title: 'Milk', price: 99.99, quantity: 1 });
-console.log(shoppingCart.getTotal());
