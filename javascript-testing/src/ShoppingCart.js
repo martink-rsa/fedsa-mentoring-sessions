@@ -1,7 +1,7 @@
 class ShoppingCart {
   items = [];
 
-  // ------ Getters
+  // Getters
   get items() {
     return this.items;
   }
@@ -15,7 +15,7 @@ class ShoppingCart {
       .toFixed(2);
   }
 
-  // ------ Methods
+  // Methods
   addItem(id, title, price) {
     const newItem = { id, title, price };
     this.items.push(newItem);

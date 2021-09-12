@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1631474024209" clover="3.2.0">
+  <project timestamp="1631474024210" name="All files">
+    <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0" elements="12" coveredelements="1" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="ShoppingCart.js" path="/home/martin/projects/fedsa-mentoring-sessions/javascript-testing/src/ShoppingCart.js">
+      <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
